@@ -271,3 +271,69 @@ main section{
     border-radius: 50px;
 }
 /* End Focus Section */
+
+
+/* Start Newsletter Section */
+
+.newsletter{
+    margin: 116px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter-title{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.newsletter-title-section{
+    max-width: 528px;
+}
+
+.newsletter-form{
+    max-width: 497px;
+}
+
+.newsletter-form label{
+    font-size: 18px;
+    
+}
+
+
+.newsletter-form input[type="email"] , input[type="text"] {
+    font-size: 20px;
+    padding: 32px;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(214, 221, 237, 1);
+    margin-bottom: 24px;
+    margin-top: 10px;
+    display: block;
+    width: 83%;
+}
+
+.newsletter-form textarea{
+    font-size: 20px;
+    padding: 32px;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(214, 221, 237, 1);
+    margin-bottom: 24px;
+    display: block;
+    margin-top: 10px;
+    width: 83%;
+}
+
+.newsletter-btn{
+    width: 100%;
+}
+
+/* End Newsletter Section */
+
+/* End Main */
