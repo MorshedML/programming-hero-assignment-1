@@ -177,3 +177,65 @@ main section{
 }
 
 /* End Productive User Section */   
+
+
+
+/* Start Review Section */
+
+.review{
+    margin: 116px 150px;
+}
+
+.review-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.user-reivew-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-item{
+    padding: 40px;
+    border-radius: 20px;
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 20px 0;
+    box-shadow: 0 0 50px rgba(77, 71, 255, 0.25);
+    max-width: 366.67px;
+}
+
+.review-item:hover{
+    background-color: #fff;
+}
+
+.review-profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.review-description{
+    font-size: 20px;
+    color: rgba(30, 30, 30, 1);
+}
+
+.review-profile img{
+    border-radius: 50px;
+}
+.review-profile-info{
+    margin: 0;
+    padding: 0;
+}
+
+.review-profile-info h5{
+    color: rgba(117, 117, 117, 1);
+    font-size: 18px;
+    margin: 0;
+}
+
+.review-profile-info p{
+    color: rgba(179, 179, 179, 1);
+
+}
+/* End Review Section */
