@@ -134,3 +134,46 @@ main section{
 }
 
 /* End Action Section */
+
+
+
+
+/* Start Productive User Section */
+
+
+.productive-user{
+    padding: 50px 150px;
+    background-color: rgba(78, 71, 255, 0.1);
+    max-width: 1140px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.productive-user-title{
+    font-size: 38px;
+    color: #252432;
+    font-weight: bold;
+}
+
+.productive-user-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.item h2{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0;
+}
+
+.item p{
+    text-align: center;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+/* End Productive User Section */   
