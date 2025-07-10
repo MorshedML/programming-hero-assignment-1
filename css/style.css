@@ -239,3 +239,35 @@ main section{
 
 }
 /* End Review Section */
+
+
+/* Start Focus Section */
+
+.focus{
+    margin: 116px 150px;
+    padding: 70px 0;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 50px rgba(77, 71, 255, 0.25);
+}
+
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.focus-description{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+.focus-part-1{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.focus-part-2 img{
+    border-radius: 50px;
+}
+/* End Focus Section */
